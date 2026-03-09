@@ -1,0 +1,199 @@
+/* Genel Sayfa Stili */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #1B1F3B;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1B1F3B;
+    color: white;
+    margin-top: 50px;
+}
+
+/* Blog Sayfası */
+.blog-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post {
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.blog-post h3 {
+    margin: 0;
+    color: #1B1F3B;
+}
+
+.blog-post p {
+    margin: 5px 0;
+}
+
+.blog-post .date {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Post Ekleme Formu */
+.post-form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+    text-align: left;
+}
+
+.post-form-container h2 {
+    text-align: center;
+    color: #1B1F3B;
+}
+
+.post-form-container label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.post-form-container input,
+.post-form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Gönder Butonu */
+.post-form-container button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background: #5DADE2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.post-form-container button[type="submit"]:hover {
+    background: #3498DB;
+}
+
+/* Clear Butonu */
+.clear-btn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    background: #e74c3c; /* Kırmızı */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.clear-btn:hover {
+    background: #c0392b; /* Daha koyu kırmızı */
+}
+
+/* Login Formu */
+.login-form {
+    max-width: 400px;
+    margin: 80px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+    text-align: center;
+    color: #1B1F3B;
+}
+
+.login-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background: #5DADE2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-form button:hover {
+    background: #3498DB;
+}
+.input-error {
+    border: 2px solid red;
+    background-color: #ffe6e6;
+}
+.contact-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.contact-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-top: 30px;
+}
